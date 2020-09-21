@@ -14,7 +14,7 @@ let computerScore_text = document.getElementById("computerPoint")
         playerScore++
         playerScore_text.innerHTML = playerScore;
         if (playerScore === 5){
-            alert("Ganaste! Se va a reiniciar el juego!")
+            alert("YOU WIN THIS SERIES! Page will reload to start over!")
             location.reload();
         } else {
         return playerScore;
